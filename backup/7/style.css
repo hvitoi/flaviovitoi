@@ -1,0 +1,80 @@
+body {
+	background-image:url('fundo.jpg');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	-khtml-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	background-attachment:fixed;
+	font-family:"Centaur","Arial","Helvetica","sans-serif";
+	line-height:30px;
+}
+
+p{
+	font-size:20px;
+	text-indent:70px;
+	text-align:justify;	
+}
+
+h1{
+	text-align: center;
+	font-size:35px;
+	font-weight:bold;
+}	
+
+h2.subt{
+	font-size:30px;
+	text-decoration:underline;
+	text-indent:50px;
+}
+
+h2.trab{
+	font-size:30px;
+	text-indent:200px;
+	text-decoration:underline;
+}
+p.trab{
+	font-size:20px;
+	text-indent:230px;
+}
+div.trab{
+	text-indent:280px;
+}
+
+table{
+	/*Margem da tabela*/
+	padding:15px 10px 10px 10px;
+		
+	/*Cor de fundo da tabela*/
+	background-color:#FFFFCC;
+		
+	/*Aplicação da transparência*/
+	filter:alpha(opacity=20); -moz-opacity:0.8; opacity: 0.8;
+}
+
+
+h2.menu{
+	background-color:#5C3317;
+}
+
+#menu {
+	height: 30px;
+	line-height: 30px;
+}
+
+#menu ul li {
+	margin-left:9%;
+	display:block;
+	float: left;
+}
+
+#menu ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+#menu ul li a:hover {
+	text-decoration: underline;
+}
